@@ -68,10 +68,6 @@ class _JogoState extends State<Jogo> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          //1) text
-          //2) imagem
-          //3) text resultado
-          //4) Linha 3 imagens
           const Padding(
             padding: EdgeInsets.only(top: 32, bottom: 16),
             child: Text(
@@ -113,19 +109,6 @@ class _JogoState extends State<Jogo> {
                   height: 100,
                 ),
               ),
-              /*
-              Image.asset(
-                "images/pedra.png",
-                height: 100,
-              ),
-              Image.asset(
-                "images/papel.png",
-                height: 100,
-              ),
-              Image.asset(
-                "images/tesoura.png",
-                height: 100,
-              )*/
             ],
           )
         ],
